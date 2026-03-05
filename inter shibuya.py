@@ -1,5 +1,6 @@
+from ast import main
 from datetime import datetime
-from py_compile import main
+
 
 class Medicamento:
     def __init__(self, nombre, dosis):
