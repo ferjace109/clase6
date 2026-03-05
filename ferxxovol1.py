@@ -1,4 +1,5 @@
 from datetime import datetime
+from py_compile import main
 
 class Medicamento:
     def __init__(self, nombre, dosis):
@@ -50,3 +51,6 @@ if __name__ == "__main__":
     print("\nMedicamentos asignados:")
     for med in mascota1.verLista_Medicamentos():
         print("- Nombre:", med.verNombre(), ", Dosis:", med.verDosis(), "mg")
+
+if __name__ == "__main__":
+    main()
